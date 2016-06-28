@@ -1,0 +1,92 @@
+body {
+	background-color: #ffffff;
+}
+
+header {
+	padding: 5px;
+}
+
+nav {
+	display: block;
+	background-color: #fd6400;
+	height: 20px;
+}
+
+nav ul {
+}
+
+nav ul li {
+	display: inline;
+	align: left;
+}
+
+button {
+	background-color: #fd6400;
+	border: none;
+}
+
+img {
+	float: right;
+	background-color: #ffffff;
+}
+
+#logo {
+	content: url("../img/rabobank-logo-mobile.png");
+	width: 96px;
+	height: 33px;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: Arial;
+	color: #009;
+	display: block;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: Arial;
+	color: #009;
+}
+
+input {
+	display: block;
+	height: 15px;
+}
+
+p {
+	font-size: 16px;
+	font-family: Arial;
+
+}
+
+span {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+li {
+	font-size: 16px;
+	font-family: Arial;
+}
+
+#resultText {
+	display: visible;
+}
+
+#rente {
+	display: none;
+}
+
+#voorwaarden {
+	display: none;
+}
+
+@media screen and (min-width: 480px) {
+
+	#logo{
+		content: url("../img/rabobank-logo.png");
+		width: 124px;
+		height: 148px;
+	}
+}
